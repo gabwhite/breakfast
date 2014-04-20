@@ -1,0 +1,528 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* IE7 */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.header {
+  background: black url("images/header1.jpg") center no-repeat;
+  position: relative;
+  max-width: 100%;
+  max-height: 600px;
+}
+.header h1 {
+  text-align: center;
+  font-family: Norican, script;
+  font-size: 4rem;
+  color: white;
+  text-shadow: -3px -2px 15px #b06a3f;
+  line-height: 4rem;
+  width: 100%;
+  margin-bottom: 1%;
+}
+.header h2 {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: -1px -1px 23px #a0663f;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.headertwin {
+  box-shadow: inset 5px 5px 190px 70px;
+  width: 100%;
+  padding: 10%;
+  margin: 0 auto;
+  opacity: 0.93;
+  max-height: 600px;
+}
+
+.headertwin .containertext {
+  width: 80%;
+  margin: 5% auto;
+  padding: 4%;
+  opacity: 1;
+}
+
+.boxbox {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+
+.box1 h2, .box2 h2, .box3 h2 {
+  margin: 40% 0;
+}
+
+.box1, .box2, .box3 {
+  background-size: cover;
+  padding: 1%;
+}
+
+h2.boxhead {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: -3px -2px 15px #b06a3f;
+}
+
+.box1 {
+  background-image: url("images/baconoclock.jpg");
+}
+
+.box2 {
+  background-image: url("images/carbs.jpg");
+}
+
+.box3 {
+  background-image: url("images/bageland.jpg");
+}
+
+.description1, .description2, .description3 {
+  margin: 5% 0;
+}
+
+.photogrid {
+  /*	border: 1px solid red;*/
+}
+
+.photogridtext {
+  margin-right: 5%;
+  float: left;
+  width: 40%;
+  margin: 2% 0 0 2%;
+}
+
+.galleryholder {
+  /*	border: 1px solid red;
+  */
+  float: right;
+  width: 50%;
+  margin: 5% 0;
+}
+
+.imgGrid1, .imgGrid2, .imgGrid3, .imgGrid4, .imgGrid5, .imgGrid6, .imgGrid7, .imgGrid8, .imgGrid9 {
+  width: 32%;
+  float: left;
+  padding: 15%;
+  background-size: cover;
+}
+
+.imgGrid1:hover, .imgGrid2:hover, .imgGrid3:hover, .imgGrid4:hover, .imgGrid5:hover, .imgGrid6:hover, .imgGrid7:hover, .imgGrid8:hover, .imgGrid9:hover {
+  background: #FF6347;
+  padding: 3%;
+}
+
+.caption {
+  display: block;
+  opacity: 0;
+  position: relative;
+  width: 100%;
+  height: 0;
+  color: white;
+  font-weight: 700;
+  line-height: 1.5em;
+  font-size: 0.9rem;
+  font-family: Raleway;
+}
+
+.imgGrid1:hover .caption, .imgGrid2:hover .caption, .imgGrid3:hover .caption, .imgGrid4:hover .caption, .imgGrid5:hover .caption, .imgGrid6:hover .caption, .imgGrid7:hover .caption, .imgGrid8:hover .caption, .imgGrid9:hover .caption {
+  display: block;
+  opacity: 1;
+  height: auto;
+  padding: 15% 0;
+}
+
+.imgGrid1 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/coffeetime.jpg");
+}
+
+.imgGrid2 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/cereal.jpg");
+}
+
+.imgGrid3 {
+  margin: 0 0 2% 0;
+  background-image: url("images/morecoffee.jpg");
+}
+
+.imgGrid4 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/rybagel.jpg");
+}
+
+.imgGrid5 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/beans.jpg");
+}
+
+.imgGrid6 {
+  margin: 0 0 2% 0;
+  background-image: url("images/hotchoc.jpg");
+}
+
+.imgGrid7 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/granola.jpg");
+}
+
+.imgGrid8 {
+  margin: 0 2% 2% 0;
+  background-image: url("images/smoothie.jpg");
+}
+
+.imgGrid9 {
+  margin: 0 0 2% 0;
+  background-image: url("images/bananabread.jpg");
+}
+
+body {
+  background: url(images/debut_light.png);
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h3 {
+  font-family: Raleway;
+  font-weight: 700;
+  color: #FF6347;
+  font-size: 1.5rem;
+  margin: 1% auto;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #696969;
+  line-height: 1.5em;
+}
+
+.quote {
+  background-image: url(images/stardust.png);
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+h2.h2quote {
+  font-family: Norican, sans-serif;
+  font-size: 2rem;
+  text-shadow: none;
+  letter-spacing: 0.04em;
+  color: white;
+  text-align: center;
+}
+
+.breakfastStory {
+  background: #FAEBD7;
+}
+
+img.grapefruit {
+  float: left;
+  border: 3px solid #FF6347;
+  padding: 1%;
+  max-width: 100%;
+  margin: 2% 5% 2% 0;
+}
+
+h3.makejuice {
+  font-family: Raleway;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.footer {
+  background: #FF6347;
+  /*height: 100px;*/
+}
+
+.footertext {
+  font-family: Raleway;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+}
+
+a, a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 780px) {
+  .header h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .header h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .galleryholder {
+    width: 100%;
+  }
+
+  .photogridtext {
+    width: 100%;
+  }
+
+  .boxbox {
+    width: 100%;
+  }
+
+  .description1, .description2, .description3 {
+    width: 100%;
+  }
+
+  img.grapefruit {
+    margin: 10% auto;
+  }
+
+  h3.makejuice {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .galleryholder {
+    width: 100%;
+  }
+
+  .photogridtext {
+    width: 100%;
+  }
+
+  .imgGrid1, .imgGrid2, .imgGrid3, .imgGrid4, .imgGrid5, .imgGrid6, .imgGrid7, .imgGrid8, .imgGrid9 {
+    width: 48%;
+    margin: 1%;
+    float: left;
+    padding: 20%;
+    background-size: cover;
+  }
+
+  .imgGrid1:hover, .imgGrid2:hover, .imgGrid3:hover, .imgGrid4:hover, .imgGrid5:hover, .imgGrid6:hover, .imgGrid7:hover, .imgGrid8:hover, .imgGrid9:hover {
+    padding: 2%;
+  }
+
+  .caption {
+    padding: 80% 0;
+  }
+
+  .boxbox {
+    width: 100%;
+  }
+
+  .description1, .description2, .description3 {
+    width: 100%;
+  }
+
+  img.grapefruit {
+    margin: 10% auto;
+  }
+}

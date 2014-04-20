@@ -1,0 +1,51 @@
+@media (max-width: 480px) {
+	
+	.header h1 {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	
+	.header h2 {
+		font-size: 1.5rem;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.galleryholder {
+		width: 100%;
+	}
+
+	.photogridtext {
+		width: 100%;
+	}
+
+	.imgGrid1, .imgGrid2, .imgGrid3, .imgGrid4, .imgGrid5, .imgGrid6, .imgGrid7, .imgGrid8, .imgGrid9 {
+	    width: 48%;
+	    margin: 1%;
+	    float: left;
+	    padding: 20%;
+	    background-size:cover;
+	}
+
+	.imgGrid1:hover, .imgGrid2:hover, .imgGrid3:hover, .imgGrid4:hover, .imgGrid5:hover, .imgGrid6:hover, .imgGrid7:hover, .imgGrid8:hover, .imgGrid9:hover{
+		padding: 2%;
+	}
+
+	.caption {
+		padding: 80% 0;
+	}
+
+	.boxbox{
+		width: 100%;
+	}
+
+	.description1, .description2, .description3{
+		width: 100%;
+	}
+
+	img.grapefruit {
+		margin: 10% auto;
+	}
+}

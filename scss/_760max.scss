@@ -1,0 +1,46 @@
+@media (max-width: 780px) {
+	.header  {
+		h1 {
+			font-size: 3rem;
+			line-height: 3rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+			line-height: 2rem;
+		}
+		
+	}
+	
+	.container {
+		width: 90%;
+	}
+
+	.galleryholder {
+		width: 100%;
+	}
+
+	.photogridtext {
+		width: 100%;
+	}
+
+	.boxbox{
+		width: 100%;
+	}
+
+	.description1, .description2, .description3{
+		width: 100%;
+	}
+
+	img.grapefruit {
+		margin: 10% auto;
+	}
+
+	h3.makejuice {
+		width: 100%;
+	}
+
+	p {
+		width: 100%;
+	}
+}

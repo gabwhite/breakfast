@@ -1,0 +1,99 @@
+@import 'normalize';
+@import 'header';
+
+@import 'box';
+
+@import 'imggrid';
+
+
+body {
+	background: url(images/debut_light.png);
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	}
+
+
+
+h3 {
+	font-family: Raleway;
+	font-weight: 700;
+	color: #FF6347;
+	font-size: 1.5rem;
+	margin: 1% auto;
+}
+
+p {
+	font-family: Raleway;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #696969;
+	line-height: 1.5em;
+}
+
+.quote {
+	background-image: url(images/stardust.png);
+	background-repeat: repeat;
+	padding: 20px;
+}
+
+ h2.h2quote {
+	font-family: Norican, sans-serif;
+	font-size: 2rem;
+	text-shadow: none;
+	letter-spacing: 0.04em;
+	color: white;
+	text-align: center;
+}
+
+.breakfastStory {
+	background: #FAEBD7;
+}
+
+img.grapefruit{
+	float: left;
+	border: 3px solid #FF6347;
+	padding: 1%;
+	max-width: 100%;
+	margin: 2% 5% 2% 0;
+}
+
+
+
+h3.makejuice {
+	font-family: Raleway;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+
+
+.footer {
+	background: #FF6347;
+	/*height: 100px;*/
+}
+
+
+.footertext {
+	font-family: Raleway;
+	font-weight: 400;
+	color: white;
+	font-size: 16px;
+}
+
+a, a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+@import '760max';
+@import '480max';

@@ -1,0 +1,40 @@
+.boxbox {
+	width: 30%;
+	float: left;
+	margin: 1.5%;
+}
+
+
+.box1 h2, .box2 h2, .box3 h2 {
+	margin: 40% 0;
+}
+
+.box1, .box2, .box3 {
+	background-size: cover;
+	padding: 1%;
+}
+
+
+h2.boxhead{
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-shadow: -3px -2px 15px rgba(176, 106, 63, 1);
+}
+
+.box1 {
+	background-image: url('images/baconoclock.jpg');
+}
+
+.box2 {
+	background-image: url('images/carbs.jpg');
+}
+
+.box3 {
+	background-image: url('images/bageland.jpg');
+}
+
+.description1, .description2, .description3 {
+	margin: 5% 0;
+}

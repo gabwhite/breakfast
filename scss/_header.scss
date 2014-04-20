@@ -1,0 +1,44 @@
+.header{
+    background: black url('images/header1.jpg') center no-repeat;
+    position: relative;
+    max-width: 100%;
+    max-height: 600px;
+
+
+    h1 {
+    	text-align: center;
+    	font-family: Norican, script;
+    	font-size: 4rem;
+    	color: white;
+    	text-shadow: -3px -2px 15px rgba(176, 106, 63, 1);
+    	line-height: 4rem;
+    	width: 100%;
+        margin-bottom: 1%;
+    }
+
+    h2 {
+    	text-align: center;
+    	font-family: Raleway, sans-serif;
+    	font-size: 2.5rem;
+    	color: white;
+    	text-shadow: -1px -1px 23px rgba(160, 102, 63, 1);
+    	text-transform: uppercase;
+    	width: 100%;
+    }
+}
+
+.headertwin {
+	box-shadow: inset 5px 5px 190px 70px;
+	width: 100%;
+	padding: 10%;
+    margin: 0 auto;
+	opacity: 0.93;
+	max-height: 600px;
+	}
+
+.headertwin .containertext {
+	width: 80%;
+	margin: 5% auto;
+	padding: 4%;
+	opacity: 1;
+	}
